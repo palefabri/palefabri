@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-dark:#000000;
+    --cor-light:#ffffff;
+    --cor01: #17C3B2;
+    --cor02: #188BC9;
+    --cor03: #285AAB;
+    --cor04: #DE7F02;
+    --cor05: #222725;
+    --fonte01: 'Noto Sans Display', sans-serif;
+    --fonte02: 'Source Sans Pro', sans-serif;
+}
+/*--------------------------Espaço Extra--------------------------*/
+.espaco-heigth{
+    height: 90vh;
+    background-image: radial-gradient(var(--cor03), var(--cor02));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*--------------------------Espaço Extra--------------------------*/
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor05);
+    min-height: 250px;
+    color: var(--cor-light);
+    font-family: var(--fonte01);
+}
