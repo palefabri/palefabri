@@ -14,24 +14,73 @@
     --cor01: #17C3B2;
     --cor02: #188BC9;
     --cor03: #285AAB;
+    --cor03-1: #1E4480;
     --cor04: #DE7F02;
     --cor05: #222725;
+    --cor06: #ECECEC;
     --fonte01: 'Noto Sans Display', sans-serif;
     --fonte02: 'Source Sans Pro', sans-serif;
 }
-/*--------------------------Espaço Extra--------------------------*/
+html body{
+    font-family: var(--fonte02);
+    background-color: var(--cor06);
+}
+.destaque{
+    color: var(--cor04);
+}
+/*--------------------------Espaço Extra start--------------------------*/
 .espaco-heigth{
     height: 90vh;
-    background-image: radial-gradient(var(--cor03), var(--cor02));
+    background-color: var(--cor03);
     display: flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px -2px 9px 8px var(--cor03);
 }
-/*--------------------------Espaço Extra--------------------------*/
-
-
-
-
+/*--------------------------Espaço Extra end--------------------------*/
+header{
+    min-height: 100px;
+    background-color: var(--cor03);
+}
+.banner img{
+    width: 100%;
+    margin-bottom: -5px;
+}
+.selos{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.selos-bloco{
+    padding: 10px 20px;
+    text-align: center;
+    color: var(--cor03-1);
+}
+.selos-bloco :nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+}
+.selos-bloco :nth-child(4){
+    font-size: 13px;
+}
+#material-icons{
+    font-size: 60px;
+    color: var(--cor04);
+}
+.frase01{
+    min-height: 100px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 60%;
+    font-size: 32px;
+    margin: auto;
+    color: var(--cor03-1);
+    font-weight: bold;
+}
 
 
 
@@ -45,5 +94,20 @@ footer{
     background-color: var(--cor05);
     min-height: 250px;
     color: var(--cor-light);
-    font-family: var(--fonte01);
+}
+.pay{
+    padding: 20px;
+    text-align: center;
+}
+.pay p{
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+.pay img{
+    height: 50px;
+    border-radius: 5px;
+}
+.informacao{
+    padding: 20px;
+    text-align: center;
 }
