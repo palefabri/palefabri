@@ -22,7 +22,7 @@
     --fonte02: 'Source Sans Pro', sans-serif;
 }
 html body{
-    font-family: var(--fonte02);
+    font-family: var(--fonte01);
     background-color: var(--cor06);
 }
 .destaque{
@@ -71,7 +71,7 @@ header{
 }
 #material-icons{
     font-size: 60px;
-    color: var(--cor04);
+    color: var(--cor03);
 }
 .frase01{
     min-height: 100px;
