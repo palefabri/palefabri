@@ -35,12 +35,26 @@ html body{
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px -2px 9px 8px var(--cor03);
+    margin-top: -5px;
+}
+/*--------------------------Espaço Extra end--------------------------*/
+/*--------------------------Espaço Extra start--------------------------*/
+.espaco-heigth-claro{
+    height: 90vh;
+    background-color: var(--cor06);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
 }
 /*--------------------------Espaço Extra end--------------------------*/
 header{
+    padding: 0 20px;
     min-height: 100px;
     background-color: var(--cor03);
+}
+header > img{
+    width: 200px;
 }
 .banner{
     background-image: linear-gradient(90deg, var(--cor03-1), var(--cor03));
@@ -83,6 +97,21 @@ header{
     margin: auto;
     color: var(--cor03-1);
     font-weight: 600;
+}
+.banner02 > .text01-banner{
+    color: var(--cor03-1);
+    font-size: 32px;
+}
+.banner02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../imagens/banner02-2.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+.banner02 img{
+    height: 300px;
 }
 
 
