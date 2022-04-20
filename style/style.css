@@ -52,6 +52,7 @@ header{
     padding: 0 20px;
     min-height: 100px;
     background-color: var(--cor03);
+    box-shadow: 0 0 5px var(--cor03);
 }
 header > img{
     width: 200px;
